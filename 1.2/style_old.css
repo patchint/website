@@ -1,0 +1,121 @@
+/* navigation */
+
+body {
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+    position: fixed;
+    top: 0;
+    
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-decoration: #FFF;
+}
+
+.main-menu:hover {
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+    transition: 0.5s
+}
+
+nav li:hover a {
+    padding: 15px 30px 20px 30px;
+    text-decoration: #FFF;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+/* other */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+
+.container {
+    margin-right: 500px;
+    margin-left: 500px;
+    text-align: justify;
+    margin-top: 100px;
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0px; right: 0px; left: 0px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.t1 {
+    color: #9c8d8c;
+    text-decoration: underline;
+    margin-left: -40px;
+}
+
+.t2 {
+    color: #c4746e;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 10px; 
+}
+
+/* Specific of contact.html */
+.ytb {
+    height: 100px;
+    width: 100px;
+    box-shadow : 8px 8px 5px black;
+    float: left;
+    margin-top: -100px;
+    margin-left: -150px;
+    top: 100px;
+    left: 900px;
+ 
+}
+
+/* Moble */
+@media only screen and (max-width: 120px){
+    .rbody{
+        width: auto;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    nav{ 
+        text-align: left;
+    }    
+}
+
